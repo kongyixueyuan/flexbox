@@ -20,6 +20,9 @@
 - flex
 - align-self
 
+[Flexbox基础+项目实战视频](http://kongyixueyuan.com/course/default/view?friendlyUrl=http%3A%2F%2Fwww.kongyixueyuan.com%2Fcourse%2F2625)
+
+有问题添加春哥微信：liyc1215
 
 # CSS介绍
 
