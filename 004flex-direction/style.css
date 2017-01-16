@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    height: 80vh;
+    border: 10px solid red;
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    flex-direction: column-reverse;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: darkslategray;
+}
+.box2 {
+    background-color: greenyellow;
+}
+.box3 {
+    background-color: orchid;
+}
+.box4 {
+    background-color: green;
+}

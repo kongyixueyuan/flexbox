@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    height: 80vh;
+    border: 10px solid red;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+}
+
+.box {
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.box1 {
+    flex: 1 1 auto;
+    background-color: darkslategray;
+}
+.box2 {
+    flex: 0 0 50%;
+    background-color: greenyellow;
+}
+.box3 {
+    background-color: orchid;
+    flex: 1;
+}
+.box4 {
+    background-color: green;
+}
+

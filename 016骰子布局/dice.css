@@ -1,0 +1,31 @@
+.first-face {
+    justify-content: center;
+    align-items: center;
+}
+
+.second-face,.third-face,.fourth-face,.fifth-face,.sixth-face {
+    justify-content: space-between;
+}
+
+.second-face .pip:nth-of-type(2) {
+    align-self: flex-end;
+}
+
+.third-face .pip:nth-of-type(2) {
+    align-self: center;
+}
+
+.third-face .pip:nth-of-type(3) {
+    align-self: flex-end;
+}
+
+
+.column {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.fifth-face .column:nth-of-type(2) {
+    justify-content: center;
+}

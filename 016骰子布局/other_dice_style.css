@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(34,34,34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[class$="face"] {
+    width: 104px;
+    height: 104px;
+    background-color: #e7e7e7;
+    margin: 16px;
+
+    box-shadow:
+        inset 0 5px white,
+        inset 0 -5px #bbb,
+        inset 5px 0 #d7d7d7,
+        inset -5px 0 #d7d7d7;
+
+    border-radius: 10%;
+
+    display: flex;
+}
+
+.pip {
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+    background-color: #333;
+
+    border-radius: 50%;
+
+    box-shadow:
+            inset 0 3px #111,
+            inset 0 5px #555;
+}
+
+

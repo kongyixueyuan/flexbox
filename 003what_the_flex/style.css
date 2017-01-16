@@ -1,0 +1,19 @@
+.flex-container {
+    border: 10px solid darkred;
+    display: flex;
+    height: 50vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: darkslategray;
+}
